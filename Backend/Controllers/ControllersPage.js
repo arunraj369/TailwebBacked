@@ -31,7 +31,7 @@ exports.getAllData = (req, res) => {
 };
 
 exports.postUpdateData = (req, res) => {
-  const { id } = req.params; // Assuming the student ID is passed in the URL params
+  const { id } = req.params; 
   const { name, subject, marks } = req.body;
 
   if (!mongoose.Types.ObjectId.isValid(id)) {
