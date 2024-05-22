@@ -1,5 +1,5 @@
 # TailwebBacked
-commands to follow
-npm install 
-npm init 
+commands to follow to start Backend
+npm install ,
+npm init ,
 nodemon Server.js
